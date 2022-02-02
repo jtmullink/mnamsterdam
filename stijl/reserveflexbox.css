@@ -1,0 +1,29 @@
+margin-top: 1.6em;
+display: inline-block;
+justify-content:space-around;
+width: 550px;
+height: auto;
+align-content: center;
+margin-left: 1cm;
+margin-right: 1cm;
+
+display: inline-block;
+justify-content:space-around;
+width: 550px;
+height: auto;
+align-content:flex-start;
+margin-left: 1cm;
+margin-right: 1cm;
+
+
+.zomer
+margin-top: 1.6em;
+display: inline-flex;
+flex-wrap: nowrap;
+justify-content: space-around;
+width: auto;
+height: 400px;
+max-width: 950px;
+
+oude achtergrond foto 
+https://previews.123rf.com/images/netsign33/netsign331903/netsign33190300144/124605408-.jpg
