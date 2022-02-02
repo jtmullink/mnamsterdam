@@ -1,249 +1,250 @@
 * {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: #292929;
-}
-
-body {
-  background-color: #f0fff0;
-  padding: 0cm;
-  margin-top: 1em;
-  margin-bottom: 2em;
-  border-color: black;
-}
-
-p {
-  padding: 0;
-  margin: 0;
-  color: rgb(255, 255, 255);
-}
-
-header {
-  margin-left: 70%;
-  margin-right: 2cm
-}
-
-ol p {
-  color: #363333;
-  background-color: rgba(117, 128, 114, 0.171);
-  font-size: 0.4cm;
-  padding: 4px;
-  margin: 0;
-  text-align: center;
-  border-radius: 6.5px;
-  margin-top: 7px;
-  padding: 0.17cm
-}
-
-ol li {
-  padding-left: 0;
-  list-style-position: outside;
-  font-weight: lighter;
-  font-size: 1.2em;
-  margin-top: 0.6cm;
-  color: #324d32;
-  list-style-type: upper-roman;
-  list-style-position: inside;
-
-}
-
-h1 {
-  color: #000000;
-  background-color: #ffffff70;
-  text-align: center;
-  font-size: 1.8em;
-
-}
-
-h2 {
-  color: #b92424;
-  text-align: center;
-
-}
-
-h3 {
-  color: #000000;
-  text-align: center;
-
-}
-
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-}
-
-ul {
-  list-style-type: none;
-  margin: 1cm;
-  padding: 0.13cm;
-  width: 185px;
-  background-color: rgb(199, 190, 176);
-}
-
-li a {
-  display: block;
-  color: #ffffff;
-  padding: 3px;
-  text-align: center;
-  text-decoration: none;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 3.5mm;
-}
-
-li a:hover {
-  background-color: rgb(73, 73, 73);
-  color: rgb(255, 255, 255);
-}
-
-
-#pagina-een {
-  background-image: url("https://media.cntraveller.com/photos/611be7c7a106ea5ed3099f8c/4:3/w_2664,h_1998,c_limit/amsterdam-mag-jan19-matthew-buck23.jpg");
-  background-size: 80%;
-  background-attachment: fixed;
-  background-color: #6d5022;
-  background-blend-mode: screen;
-  color: #ffffff;
-}
-
-#pagina-een p {
-  color: #000000;
-}
-
-#pagina-een h1 {
-  color: rgb(255, 255, 255);
-  background-color: #f0fff000;
-}
-
-.laptekst {
-  background-color: #f0fffe54;
-  margin-top: 2em;
-  padding-bottom: 0.5cm;
-  padding-right: 1cm;
-  padding-left: 0.6cm;
-}
-
-section form {
-  background-color: #ffffff80;
-  margin-left: 35%;
-  margin-right: 35%;
-  margin-top: 1.5cm
-}
-
-section form p {
-  margin: 0.35cm;
-  text-align: center;
-}
-
-footer {
-  color: #000000;
-  margin-top: 4cm
-}
-
-
-#pagina-twee {
-  color: #000000;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  background-image: url("https://static.neweuropetours.eu/wp-content/uploads/2018/08/thio-sandemans-amsterdam-tours-1600x900.jpg");
-  background-color: rgb(102, 160, 207);
-  background-blend-mode: screen;
-  background-size: 100%;
-  background-attachment: fixed;
-}
-
-#pagina-twee p {
-  color: black;
-}
-
-#pagina-twee ol {
-  text-align: center;
-  margin-top: 1.75cm;
-  padding-left: 0.2cm;
-  padding-right: 0.2cm;
-
-}
-
-#pagina-twee li p {
-  color: #ffffff;
-  padding: 0.2cm;
-}
-
-#pagina-twee header ul {
-  background-color: rgb(119, 157, 201);
-}
-
-#pagina-drie {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  background-attachment: fixed;
-  background-size: 130%;
-  background-image: url("https://thumbs.dreamstime.com/z/mening-van-amsterdam-door-het-fietswiel-74725458.jpg");
-  background-color: rgb(163, 255, 163);
-  background-blend-mode: lighten;
-}
-
-#pagina-drie header ul {
-  background-color: rgb(140, 231, 137);
-}
-
-#pagina-vier {
-  background-attachment: fixed;
-  background-color: rgba(255, 0, 179);
-  background-image: url("https://ymcadetroit.org/wp-content/uploads/2015/06/swim.jpg");
-  background-blend-mode: screen;
-}
-
-
-#pagina-vier h1 {
-  color: #000000;
-  margin-top: 1.65cm;
-  margin-bottom: 1.8cm;
-}
-
-#pagina-vier header ul {
-  background-color: rgb(255, 124, 255);
-}
-
-.lente {
-  display: flex;
-  margin-right: 1cm;
-  width: 50%;
-  margin-left: 2cm;
-}
-
-.lente h2 {
-  font-size: 0cm;
-}
-
-.zomer {
-  display: flex;
-  margin-top: 1.6em;
-  width: 50%;
-  margin-left: 2cm;
-}
-
-.zomer h2 {
-  font-size: 0cm;
-}
-
-.herfst {
-  display: flex;
-  margin-top: 1.6em;
-  width: 50%;
-  margin-left: 2cm;
-}
-
-.herfst h2 {
-  font-size: 0cm;
-}
-
-.winter {
-  display: flex;
-  margin-top: 1.6em;
-  width: 50%;
-  margin-left: 2cm;
-}
-
-.winter h2 {
-  font-size: 0cm;
-}
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #292929;
+  }
+  
+  body {
+    background-color: #f0fff0;
+    padding: 0cm;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    border-color: black;
+  }
+  
+  p {
+    padding: 0;
+    margin: 0;
+    color: rgb(255, 255, 255);
+  }
+  
+  header {
+    margin-left: 70%;
+    margin-right: 2cm
+  }
+  
+  ol p {
+    color: #363333;
+    background-color: rgba(117, 128, 114, 0.171);
+    font-size: 0.4cm;
+    padding: 4px;
+    margin: 0;
+    text-align: center;
+    border-radius: 6.5px;
+    margin-top: 7px;
+    padding: 0.17cm
+  }
+  
+  ol li {
+    padding-left: 0;
+    list-style-position: outside;
+    font-weight: lighter;
+    font-size: 1.2em;
+    margin-top: 0.6cm;
+    color: #324d32;
+    list-style-type: upper-roman;
+    list-style-position: inside;
+  
+  }
+  
+  h1 {
+    color: #000000;
+    background-color: #ffffff70;
+    text-align: center;
+    font-size: 1.8em;
+  
+  }
+  
+  h2 {
+    color: #b92424;
+    text-align: center;
+  
+  }
+  
+  h3 {
+    color: #000000;
+    text-align: center;
+  
+  }
+  
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 1cm;
+    padding: 0.13cm;
+    width: 185px;
+    background-color: rgb(199, 190, 176);
+  }
+  
+  li a {
+    display: block;
+    color: #ffffff;
+    padding: 3px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3.5mm;
+  }
+  
+  li a:hover {
+    background-color: rgb(73, 73, 73);
+    color: rgb(255, 255, 255);
+  }
+  
+  
+  #pagina-een {
+    background-image: url("https://media.cntraveller.com/photos/611be7c7a106ea5ed3099f8c/4:3/w_2664,h_1998,c_limit/amsterdam-mag-jan19-matthew-buck23.jpg");
+    background-size: 80%;
+    background-attachment: fixed;
+    background-color: #6d5022;
+    background-blend-mode: screen;
+    color: #ffffff;
+  }
+  
+  #pagina-een p {
+    color: #000000;
+  }
+  
+  #pagina-een h1 {
+    color: rgb(255, 255, 255);
+    background-color: #f0fff000;
+  }
+  
+  .laptekst {
+    background-color: #f0fffe54;
+    margin-top: 2em;
+    padding-bottom: 0.5cm;
+    padding-right: 1cm;
+    padding-left: 0.6cm;
+  }
+  
+  section form {
+    background-color: #ffffff80;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 1.5cm
+  }
+  
+  section form p {
+    margin: 0.35cm;
+    text-align: center;
+  }
+  
+  footer {
+    color: #000000;
+    margin-top: 4cm
+  }
+  
+  
+  #pagina-twee {
+    color: #000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url("https://static.neweuropetours.eu/wp-content/uploads/2018/08/thio-sandemans-amsterdam-tours-1600x900.jpg");
+    background-color: rgb(102, 160, 207);
+    background-blend-mode: screen;
+    background-size: 100%;
+    background-attachment: fixed;
+  }
+  
+  #pagina-twee p {
+    color: black;
+  }
+  
+  #pagina-twee ol {
+    text-align: center;
+    margin-top: 1.75cm;
+    padding-left: 0.2cm;
+    padding-right: 0.2cm;
+  
+  }
+  
+  #pagina-twee li p {
+    color: #ffffff;
+    padding: 0.2cm;
+  }
+  
+  #pagina-twee header ul {
+    background-color: rgb(119, 157, 201);
+  }
+  
+  #pagina-drie {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-attachment: fixed;
+    background-size: 130%;
+    background-image: url("https://thumbs.dreamstime.com/z/mening-van-amsterdam-door-het-fietswiel-74725458.jpg");
+    background-color: rgb(163, 255, 163);
+    background-blend-mode: lighten;
+  }
+  
+  #pagina-drie header ul {
+    background-color: rgb(140, 231, 137);
+  }
+  
+  #pagina-vier {
+    background-attachment: fixed;
+    background-color: rgba(255, 0, 179);
+    background-image: url("https://ymcadetroit.org/wp-content/uploads/2015/06/swim.jpg");
+    background-blend-mode: screen;
+  }
+  
+  
+  #pagina-vier h1 {
+    color: #000000;
+    margin-top: 1.65cm;
+    margin-bottom: 1.8cm;
+  }
+  
+  #pagina-vier header ul {
+    background-color: rgb(255, 124, 255);
+  }
+  
+  .lente {
+    display: flex;
+    margin-right: 1cm;
+    width: 50%;
+    margin-left: 2cm;
+  }
+  
+  .lente h2 {
+    font-size: 0cm;
+  }
+  
+  .zomer {
+    display: flex;
+    margin-top: 1.6em;
+    width: 50%;
+    margin-left: 2cm;
+  }
+  
+  .zomer h2 {
+    font-size: 0cm;
+  }
+  
+  .herfst {
+    display: flex;
+    margin-top: 1.6em;
+    width: 50%;
+    margin-left: 2cm;
+  }
+  
+  .herfst h2 {
+    font-size: 0cm;
+  }
+  
+  .winter {
+    display: flex;
+    margin-top: 1.6em;
+    width: 50%;
+    margin-left: 2cm;
+  }
+  
+  .winter h2 {
+    font-size: 0cm;
+  }
+  
